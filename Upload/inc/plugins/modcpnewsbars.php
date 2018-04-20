@@ -158,6 +158,20 @@ function modcpnewsbars_activate()
     border-radius: 6px;
     color: #404040;
 }
+.alert .date {
+    color: #666;
+    font-size: 0.8em;
+    margin-left: 6px;
+}
+.alert a {
+ color: #007fd0;
+}
+.alert a:visited {
+ color: #007fd0;
+}
+.alert a:hover {
+ color: #ff7500;
+}
 </style><div id=\"alert\"><p class=\"alert\">{\$mybb->settings[\'modcpnewsbars_input_1\']}</p></div>",
         "sid" => - 1,
         "dateline" => TIME_NOW
@@ -180,6 +194,20 @@ function modcpnewsbars_activate()
     border-radius: 6px;
     color: #404040;
 }
+.notice1 .date {
+    color: #666;
+    font-size: 0.8em;
+    margin-left: 6px;
+}
+.notice1 a {
+ color: #007fd0;
+}
+.notice1 a:visited {
+ color: #007fd0;
+}
+.notice1 a:hover {
+ color: #ff7500;
+}
 </style><div id=\"notice1\"><p class=\"notice1\">{\$mybb->settings[\'modcpnewsbars_input_2\']}</p></div>",
         "sid" => - 1,
         "dateline" => TIME_NOW
@@ -201,6 +229,20 @@ function modcpnewsbars_activate()
     padding: 5px 20px;
     border-radius: 6px;
     color: #404040;
+}
+.notice2 .date {
+    color: #666;
+    font-size: 0.8em;
+    margin-left: 6px;
+}
+.notice2 a {
+ color: #007fd0;
+}
+.notice2 a:visited {
+ color: #007fd0;
+}
+.notice2 a:hover {
+ color: #ff7500;
 }
 </style><div id=\"notice2\"><p class=\"notice2\">{\$mybb->settings[\'modcpnewsbars_input_3\']}</p></div>",
         "sid" => - 1,
