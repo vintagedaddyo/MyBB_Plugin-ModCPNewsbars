@@ -8,7 +8,7 @@
 *
 * MyBB Version: 1.8
 *
-* Plugin Version: 1.0
+* Plugin Version: 1.1
 *
 */
 
@@ -85,7 +85,7 @@ function modcpnewsbars_activate()
         'description' => $lang->modcpnewsbars_description_setting_3,
         'optionscode' => 'yesno',
         'value' => '1',
-        'disporder' => '3',
+        'disporder' => '4',
         'gid' => intval($gid)
     );
 
@@ -96,7 +96,7 @@ function modcpnewsbars_activate()
         'description' => $lang->modcpnewsbars_description_setting_4,
         'optionscode' => 'textarea',
         'value' => '<strong>Latest news from the MyBB Blog:</strong> <a href="http://blog.mybb.com/2018/01/07/mybb-support-policy-changes/">MyBB Support Policy Changes</a> <span class="date">(January 7, 2018)</span>',
-        'disporder' => '4',
+        'disporder' => '5',
         'gid' => intval($gid)
     );
 
@@ -107,7 +107,7 @@ function modcpnewsbars_activate()
         'description' => $lang->modcpnewsbars_description_setting_5,
         'optionscode' => 'yesno',
         'value' => '1',
-        'disporder' => '5',
+        'disporder' => '7',
         'gid' => intval($gid)
     );
 
@@ -118,7 +118,7 @@ function modcpnewsbars_activate()
         'description' => $lang->modcpnewsbars_description_setting_6,
         'optionscode' => 'textarea',
         'value' => '<strong>Are you on the </strong><a href="http://community.mybb.com/member.php?action=register">MyBB Community Forums</a><strong>&nbsp;?</strong> - Sign up for notification of new MyBB releases and updates.',
-        'disporder' => '6',
+        'disporder' => '8',
         'gid' => intval($gid)
     );
 
@@ -129,24 +129,17 @@ function modcpnewsbars_activate()
         'description' => $lang->modcpnewsbars_description_setting_7,
         'optionscode' => 'yesno',
         'value' => '1',
-        'disporder' => '7',
+        'disporder' => '10',
         'gid' => intval($gid)
     );
 
-    $db->insert_query('settings', $modcpnewsbars_setting_1);
-    $db->insert_query('settings', $modcpnewsbars_setting_2);
-    $db->insert_query('settings', $modcpnewsbars_setting_3);
-    $db->insert_query('settings', $modcpnewsbars_setting_4);
-    $db->insert_query('settings', $modcpnewsbars_setting_5);
-    $db->insert_query('settings', $modcpnewsbars_setting_6);
-    $db->insert_query('settings', $modcpnewsbars_setting_7);
-
-    rebuild_settings();
-
-    $insertarray = array(
-        "title" => "modcpnewsbars_1",
-        "template" => "<style>
-.alert {
+        $modcpnewsbars_setting_8 = array(
+        'sid' => '0',
+        'name' => 'modcpnewsbars_css_input_1',
+        'title' => $lang->modcpnewsbars_title_setting_8,
+        'description' => $lang->modcpnewsbars_description_setting_8,
+        'optionscode' => 'textarea',
+        'value' => '.alert {
     background: #FFF6BF;
     border-top: 1px solid #FFD324;
     border-left: 1px solid #FFD324;
@@ -171,18 +164,18 @@ function modcpnewsbars_activate()
 }
 .alert a:hover {
  color: #ff7500;
-}
-</style><div id=\"alert\"><p class=\"alert\">{\$mybb->settings[\'modcpnewsbars_input_1\']}</p></div>",
-        "sid" => - 1,
-        "dateline" => TIME_NOW
+}',
+        'disporder' => '3',
+        'gid' => intval($gid)
     );
 
-    $db->insert_query("templates", $insertarray);
-
-    $insertarray = array(
-        "title" => "modcpnewsbars_2",
-        "template" => "<style>
-.notice1 {
+    $modcpnewsbars_setting_9 = array(
+        'sid' => '0',
+        'name' => 'modcpnewsbars_css_input_2',
+        'title' => $lang->modcpnewsbars_title_setting_9,
+        'description' => $lang->modcpnewsbars_description_setting_9,
+        'optionscode' => 'textarea',
+        'value' => '.notice1 {
     background: #D6ECA6;
     border-top: 1px solid #8DC93E;
     border-left: 1px solid #8DC93E;
@@ -207,18 +200,18 @@ function modcpnewsbars_activate()
 }
 .notice1 a:hover {
  color: #ff7500;
-}
-</style><div id=\"notice1\"><p class=\"notice1\">{\$mybb->settings[\'modcpnewsbars_input_2\']}</p></div>",
-        "sid" => - 1,
-        "dateline" => TIME_NOW
+}',
+        'disporder' => '6',
+        'gid' => intval($gid)
     );
 
-    $db->insert_query("templates", $insertarray);
-
-    $insertarray = array(
-        "title" => "modcpnewsbars_3",
-        "template" => "<style>
-.notice2 {
+    $modcpnewsbars_setting_10 = array(
+        'sid' => '0',
+        'name' => 'modcpnewsbars_css_input_3',
+        'title' => $lang->modcpnewsbars_title_setting_10,
+        'description' => $lang->modcpnewsbars_description_setting_10,
+        'optionscode' => 'textarea',
+        'value' => '.notice2 {
     background: #ADCBE7;
     border-top: 1px solid #0F5C8E;
     border-left: 1px solid #0F5C8E;
@@ -243,8 +236,57 @@ function modcpnewsbars_activate()
 }
 .notice2 a:hover {
  color: #ff7500;
-}
-</style><div id=\"notice2\"><p class=\"notice2\">{\$mybb->settings[\'modcpnewsbars_input_3\']}</p></div>",
+}',
+        'disporder' => '9',
+        'gid' => intval($gid)
+    );  
+
+    $db->insert_query('settings', $modcpnewsbars_setting_1);
+    $db->insert_query('settings', $modcpnewsbars_setting_2);
+    $db->insert_query('settings', $modcpnewsbars_setting_3);
+    $db->insert_query('settings', $modcpnewsbars_setting_4);
+    $db->insert_query('settings', $modcpnewsbars_setting_5);
+    $db->insert_query('settings', $modcpnewsbars_setting_6);
+    $db->insert_query('settings', $modcpnewsbars_setting_7);
+    $db->insert_query('settings', $modcpnewsbars_setting_8);
+    $db->insert_query('settings', $modcpnewsbars_setting_9);
+    $db->insert_query('settings', $modcpnewsbars_setting_10);
+
+    rebuild_settings();
+
+    $insertarray = array(
+        "title" => "modcpnewsbars_1",
+        "template" => "
+        <style>
+        {\$mybb->settings[\'modcpnewsbars_css_input_1\']}
+        </style>
+        <div id=\"alert\"><p class=\"alert\">{\$mybb->settings[\'modcpnewsbars_input_1\']}</p></div>",
+        "sid" => - 1,
+        "dateline" => TIME_NOW
+    );
+
+    $db->insert_query("templates", $insertarray);
+
+    $insertarray = array(
+        "title" => "modcpnewsbars_2",
+        "template" => "
+        <style>
+        {\$mybb->settings[\'modcpnewsbars_css_input_2\']}
+        </style>
+        <div id=\"notice1\"><p class=\"notice1\">{\$mybb->settings[\'modcpnewsbars_input_2\']}</p></div>",
+        "sid" => - 1,
+        "dateline" => TIME_NOW
+    );
+
+    $db->insert_query("templates", $insertarray);
+
+    $insertarray = array(
+        "title" => "modcpnewsbars_3",
+        "template" => "
+        <style>
+        {\$mybb->settings[\'modcpnewsbars_css_input_3\']}
+        </style>
+        <div id=\"notice2\"><p class=\"notice2\">{\$mybb->settings[\'modcpnewsbars_input_3\']}</p></div>",
         "sid" => - 1,
         "dateline" => TIME_NOW
     );
@@ -274,6 +316,10 @@ function modcpnewsbars_deactivate()
     $db->query("DELETE FROM " . TABLE_PREFIX . "settings WHERE name IN ('modcpnewsbars_input_1')");
     $db->query("DELETE FROM " . TABLE_PREFIX . "settings WHERE name IN ('modcpnewsbars_input_2')");
     $db->query("DELETE FROM " . TABLE_PREFIX . "settings WHERE name IN ('modcpnewsbars_input_3')");
+
+    $db->query("DELETE FROM " . TABLE_PREFIX . "settings WHERE name IN ('modcpnewsbars_css_input_1')");
+    $db->query("DELETE FROM " . TABLE_PREFIX . "settings WHERE name IN ('modcpnewsbars_css_input_2')");
+    $db->query("DELETE FROM " . TABLE_PREFIX . "settings WHERE name IN ('modcpnewsbars_css_input_3')");
 
     $db->query("DELETE FROM " . TABLE_PREFIX . "settinggroups WHERE name='modcpnewsbars'");
 

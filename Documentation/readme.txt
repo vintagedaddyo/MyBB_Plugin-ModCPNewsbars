@@ -7,3 +7,5 @@ A rather simple plugin to create 3 newsbars on your usurp with the option to dis
 To Install:
 
 Upload The Files, And Go to Admin CP And Activate!
+
+* added in version 1.1: the ability to modify css

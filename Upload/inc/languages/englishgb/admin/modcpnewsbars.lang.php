@@ -8,7 +8,7 @@
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.0
+ * Plugin Version: 1.1
  * 
  */
 
@@ -19,7 +19,7 @@ $l['modcpnewsbars_desc'] = 'Adds newsbars to the modcp page of your forum.';
 $l['modcpnewsbars_web'] = 'http://community.mybb.com/mod-6029.html';
 $l['modcpnewsbars_auth'] = 'Vintagedaddyo';
 $l['modcpnewsbars_authsite'] = 'http://community.mybb.com/mod-6029.html';
-$l['modcpnewsbars_ver'] = '1.0';
+$l['modcpnewsbars_ver'] = '1.1';
 $l['modcpnewsbars_compat'] = '18*';
 
 // Setting Group
@@ -61,5 +61,20 @@ $l['modcpnewsbars_description_setting_6'] = 'Enter the text you want to display 
 
 $l['modcpnewsbars_title_setting_7'] = 'Do you want to enable ModCP Newsbars Notice 2?';
 $l['modcpnewsbars_description_setting_7'] = 'If you set this option to yes, Notice 2 will be active on your modcp.';
+
+// Setting 8
+
+$l['modcpnewsbars_title_setting_8'] = 'CSS for Newsbars Alert';
+$l['modcpnewsbars_description_setting_8'] = 'This controls the styling for the alert.';
+
+// Setting 9
+
+$l['modcpnewsbars_title_setting_9'] = 'CSS for Newsbars Notice 1';
+$l['modcpnewsbars_description_setting_9'] = 'This controls the styling for the notice1.';
+
+// Setting 10
+
+$l['modcpnewsbars_title_setting_10'] = 'CSS for Newsbars Notice 2';
+$l['modcpnewsbars_description_setting_10'] = 'This controls the styling for notice2.';
 
 ?>

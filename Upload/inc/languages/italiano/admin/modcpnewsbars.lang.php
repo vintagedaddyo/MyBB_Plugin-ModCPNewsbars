@@ -8,7 +8,7 @@
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.0
+ * Plugin Version: 1.1
  * 
  */
 
@@ -19,7 +19,7 @@ $l['modcpnewsbars_desc'] = 'Aggiunge newsbar alla pagina modcp del tuo forum.';
 $l['modcpnewsbars_web'] = 'http://community.mybb.com/mod-6029.html';
 $l['modcpnewsbars_auth'] = 'Vintagedaddyo';
 $l['modcpnewsbars_authsite'] = 'http://community.mybb.com/mod-6029.html';
-$l['modcpnewsbars_ver'] = '1.0';
+$l['modcpnewsbars_ver'] = '1.1';
 $l['modcpnewsbars_compat'] = '18*';
 
 // Impostazione del gruppo
@@ -61,5 +61,20 @@ $l['modcpnewsbars_description_setting_6'] = 'Inserisci il testo che vuoi visuali
 
 $l['modcpnewsbars_title_setting_7'] = 'Vuoi abilitare l avviso 2 di ModCarobar?';
 $l['modcpnewsbars_description_setting_7'] = 'Se si imposta questa opzione su yes, l avviso 2 sarà attivo su modcp.';
+
+// Impostazione 8
+
+$l['modcpnewsbars_title_setting_8'] = 'CSS per NewsBars Alert';
+$l['modcpnewsbars_description_setting_8'] = 'Controlla lo stile per l avviso.';
+
+// Impostazione 9
+
+$l['modcpnewsbars_title_setting_9'] = 'CSS per Newsbars Notice 1';
+$l['modcpnewsbars_description_setting_9'] = 'Controlla lo stile per la notice1.';
+
+// Impostazione 10
+
+$l['modcpnewsbars_title_setting_10'] = 'CSS per Newsbars Notice 2';
+$l['modcpnewsbars_description_setting_10'] = 'Controlla lo stile per notice2.';
 
 ?>
