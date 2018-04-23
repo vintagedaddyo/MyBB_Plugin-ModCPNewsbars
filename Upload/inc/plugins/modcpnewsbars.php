@@ -133,7 +133,7 @@ function modcpnewsbars_activate()
         'gid' => intval($gid)
     );
 
-        $modcpnewsbars_setting_8 = array(
+    $modcpnewsbars_setting_8 = array(
         'sid' => '0',
         'name' => 'modcpnewsbars_css_input_1',
         'title' => $lang->modcpnewsbars_title_setting_8,
@@ -239,7 +239,7 @@ function modcpnewsbars_activate()
 }',
         'disporder' => '9',
         'gid' => intval($gid)
-    );  
+    );
 
     $db->insert_query('settings', $modcpnewsbars_setting_1);
     $db->insert_query('settings', $modcpnewsbars_setting_2);
@@ -308,7 +308,7 @@ function modcpnewsbars_deactivate()
     global $db;
 
     $db->query("DELETE FROM " . TABLE_PREFIX . "settings WHERE name IN ('modcpnewsbars_enable_modcp')");
-    
+
     $db->query("DELETE FROM " . TABLE_PREFIX . "settings WHERE name IN ('modcpnewsbars_enable_input_1')");
     $db->query("DELETE FROM " . TABLE_PREFIX . "settings WHERE name IN ('modcpnewsbars_enable_input_2')");
     $db->query("DELETE FROM " . TABLE_PREFIX . "settings WHERE name IN ('modcpnewsbars_enable_input_3')");
@@ -342,7 +342,6 @@ function modcpnewsbars_deactivate()
 function modcpnewsbars_modcp_start()
 {
     global $db, $mybb, $templates, $modcpnewsbars_1, $modcpnewsbars_2, $modcpnewsbars_3;
-
     if ($mybb->settings['modcpnewsbars_enable_modcp'] == 1)
     {
         if ($mybb->settings['modcpnewsbars_enable_input_1'] == 1)
