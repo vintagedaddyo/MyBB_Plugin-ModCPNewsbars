@@ -16,9 +16,9 @@
 
 $l['modcpnewsbars_name'] = 'ModCP Newsbars';
 $l['modcpnewsbars_desc'] = 'Adds newsbars to the modcp page of your forum.';
-$l['modcpnewsbars_web'] = 'http://community.mybb.com/mod-6029.html';
+$l['modcpnewsbars_web'] = 'http://community.mybb.com/user-6029.html';
 $l['modcpnewsbars_auth'] = 'Vintagedaddyo';
-$l['modcpnewsbars_authsite'] = 'http://community.mybb.com/mod-6029.html';
+$l['modcpnewsbars_authsite'] = 'http://community.mybb.com/user-6029.html';
 $l['modcpnewsbars_ver'] = '1.1';
 $l['modcpnewsbars_compat'] = '18*';
 
