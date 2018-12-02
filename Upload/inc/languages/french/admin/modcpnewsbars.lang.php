@@ -15,22 +15,22 @@
 // plugin_info
 
 $l['modcpnewsbars_name'] = 'ModCP Newsbars';
-$l['modcpnewsbars_desc'] = 'Ajoute des newsbars à la page modcp de votre forum.';
-$l['modcpnewsbars_web'] = 'http://community.mybb.com/mod-6029.html';
+$l['modcpnewsbars_desc'] = 'Ajoute des newsbars a la page modcp de votre forum.';
+$l['modcpnewsbars_web'] = 'http://community.mybb.com/user-6029.html';
 $l['modcpnewsbars_auth'] = 'Vintagedaddyo';
-$l['modcpnewsbars_authsite'] = 'http://community.mybb.com/mod-6029.html';
+$l['modcpnewsbars_authsite'] = 'http://community.mybb.com/user-6029.html';
 $l['modcpnewsbars_ver'] = '1.1';
 $l['modcpnewsbars_compat'] = '18*';
 
 // Groupe de paramètres
 
 $l['modcpnewsbars_title_setting_group'] = 'ModCP Newsbars';
-$l['modcpnewsbars_description_setting_group'] = 'Paramètres du plugin ModCP Newsbars.';
+$l['modcpnewsbars_description_setting_group'] = 'Parametres du plugin ModCP Newsbars.';
 
 // Réglage 1
 
 $l['modcpnewsbars_title_setting_1'] = 'Voulez-vous activer ModCP Newsbars Plugin sur ModCP?';
-$l['modcpnewsbars_description_setting_1'] = 'Si vous définissez cette option sur yes, ce plugin sera actif sur votre index.';
+$l['modcpnewsbars_description_setting_1'] = 'Si vous definissez cette option sur yes, ce plugin sera actif sur votre index.';
 
 // Réglage 2
 
@@ -40,7 +40,7 @@ $l['modcpnewsbars_description_setting_2'] = 'Entrez le texte que vous voulez aff
 // Réglage 3
 
 $l['modcpnewsbars_title_setting_3'] = 'Voulez-vous activer ModCP Newsbars Alert?';
-$l['modcpnewsbars_description_setting_3'] = 'Si vous définissez cette option sur oui, Alert sera actif sur votre modcp.';
+$l['modcpnewsbars_description_setting_3'] = 'Si vous definissez cette option sur oui, Alert sera actif sur votre modcp.';
 
 // Réglage 4
 
@@ -60,21 +60,21 @@ $l['modcpnewsbars_description_setting_6'] = 'Entrez le texte que vous voulez aff
 // Réglage 7
 
 $l['modcpnewsbars_title_setting_7'] = 'Voulez-vous activer ModCP Newsbars Notice 2?';
-$l['modcpnewsbars_description_setting_7'] = 'Si vous définissez cette option sur oui, Notification 2 sera active sur votre modcp.';
+$l['modcpnewsbars_description_setting_7'] = 'Si vous definissez cette option sur oui, Notification 2 sera active sur votre modcp.';
 
 // Réglage 8
 
 $l['modcpnewsbars_title_setting_8'] = 'CSS pour l alerte Newsbars';
-$l['modcpnewsbars_description_setting_8'] = 'Ceci contrôle le style de l alerte.';
+$l['modcpnewsbars_description_setting_8'] = 'Ceci controle le style de l alerte.';
 
 // Réglage 9
 
 $l['modcpnewsbars_title_setting_9'] = 'CSS pour Newsbars Notice 1';
-$l['modcpnewsbars_description_setting_9'] = 'Ceci contrôle le style de la notice1.';
+$l['modcpnewsbars_description_setting_9'] = 'Ceci controle le style de la notice1.';
 
 // Réglage 10
 
 $l['modcpnewsbars_title_setting_10'] = 'CSS pour Newsbars Notice 2';
-$l['modcpnewsbars_description_setting_10'] = 'Ceci contrôle le style de notice2.';
+$l['modcpnewsbars_description_setting_10'] = 'Ceci controle le style de notice2.';
 
 ?>
