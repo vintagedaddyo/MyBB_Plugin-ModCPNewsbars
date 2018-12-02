@@ -15,10 +15,10 @@
 // plugin_info
 
 $l['modcpnewsbars_name'] = 'ModCP Newsbars';
-$l['modcpnewsbars_desc'] = 'Agrega barras de noticias a la página de modcp de su foro.';
-$l['modcpnewsbars_web'] = 'http://community.mybb.com/mod-6029.html';
+$l['modcpnewsbars_desc'] = 'Agrega barras de noticias a la pagina de modcp de su foro.';
+$l['modcpnewsbars_web'] = 'http://community.mybb.com/user-6029.html';
 $l['modcpnewsbars_auth'] = 'Vintagedaddyo';
-$l['modcpnewsbars_authsite'] = 'http://community.mybb.com/mod-6029.html';
+$l['modcpnewsbars_authsite'] = 'http://community.mybb.com/user-6029.html';
 $l['modcpnewsbars_ver'] = '1.1';
 $l['modcpnewsbars_compat'] = '18*';
 
@@ -30,7 +30,7 @@ $l['modcpnewsbars_description_setting_group'] = 'Configuraciones para el complem
 // Configuración 1
 
 $l['modcpnewsbars_title_setting_1'] = '¿Desea habilitar ModCP Newsbars Plugin en ModCP?';
-$l['modcpnewsbars_description_setting_1'] = 'Si establece esta opción en sí, este complemento estará activo en su índice.';
+$l['modcpnewsbars_description_setting_1'] = 'Si establece esta opcion en si, este complemento estará activo en su indice.';
 
 // Configuración 2
 
@@ -40,7 +40,7 @@ $l['modcpnewsbars_description_setting_2'] = 'Ingrese el texto que desea mostrar 
 // Configuración 3
 
 $l['modcpnewsbars_title_setting_3'] = '¿Desea activar ModCP Newsbars Alert?';
-$l['modcpnewsbars_description_setting_3'] = 'Si configura esta opción en sí, Alert estará activo en su modcp.';
+$l['modcpnewsbars_description_setting_3'] = 'Si configura esta opcion en si, Alert estará activo en su modcp.';
 
 // Configuración 4
 
@@ -50,7 +50,7 @@ $l['modcpnewsbars_description_setting_4'] = 'Ingrese el texto que desea mostrar 
 // Configuración 5
 
 $l['modcpnewsbars_title_setting_5'] = '¿Desea activar el aviso 1 de ModCP Newsbars?';
-$l['modcpnewsbars_description_setting_5'] = 'Si configura esta opción en yes, Notice 1 estará activo en su modcp.';
+$l['modcpnewsbars_description_setting_5'] = 'Si configura esta opcion en yes, Notice 1 estara activo en su modcp.';
 
 // Configuración 6
 
@@ -60,7 +60,7 @@ $l['modcpnewsbars_description_setting_6'] = 'Ingrese el texto que desea mostrar 
 // Configuración 7
 
 $l['modcpnewsbars_title_setting_7'] = '¿Desea habilitar el aviso 2 de ModCP Newsbars?';
-$l['modcpnewsbars_description_setting_7'] = 'Si configura esta opción en sí, el Aviso 2 estará activo en su modcp.';
+$l['modcpnewsbars_description_setting_7'] = 'Si configura esta opcion en si, el Aviso 2 estara activo en su modcp.';
 
 // Configuración 8
 
